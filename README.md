@@ -44,7 +44,11 @@ A Python-based email automation tool that sends personalized emails using SMTP a
 
 
 
-\## Features
+\## Screenshots
+
+![python-smtp-email-automation dashboard](docs/screenshots/app.png)
+
+## Features
 
 
 
