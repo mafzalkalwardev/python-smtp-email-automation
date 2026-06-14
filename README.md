@@ -30,6 +30,10 @@ A Python-based email automation tool that sends personalized emails using SMTP a
 
 \## Screenshots
 
+## Screenshots
+
+![Application screenshot](docs/screenshots/app.png)
+
 ## Features
 
 \- Send emails using Gmail SMTP
