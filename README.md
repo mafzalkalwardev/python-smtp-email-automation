@@ -10,22 +10,11 @@ Documented · MIT licensed · Maintained
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)](CONTRIBUTING.md)
 
-[Features](#-features) · [Quick Start](#-quick-start) · [Screenshots](#-screenshots) · [Contributing](CONTRIBUTING.md)
-
 </div>
 
 ---
 
-## 🖼 Screenshots
-
-![Python SMTP Email Automation screenshot](docs/screenshots/placeholder.svg)
-
-*Replace `docs/screenshots/placeholder.svg` with real app screenshots.*
-
----
-
 ## 🐍 Contribution graph
-
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mafzalkalwardev/python-smtp-email-automation/output/snake-dark.svg" />
@@ -33,24 +22,15 @@ Documented · MIT licensed · Maintained
   <img alt="Contribution snake" src="https://raw.githubusercontent.com/mafzalkalwardev/python-smtp-email-automation/output/snake.svg" />
 </picture>
 
-
 ---
 
 \# Python SMTP Email Automation
 
-
-
 A Python-based email automation tool that sends personalized emails using SMTP and Gmail App Passwords. It reads recipient data from an Excel file and sends customized email messages with randomized templates and safe delays.
-
-
 
 \## Screenshots
 
-![python-smtp-email-automation dashboard](docs/screenshots/app.png)
-
 ## Features
-
-
 
 \- Send emails using Gmail SMTP
 
@@ -68,11 +48,7 @@ A Python-based email automation tool that sends personalized emails using SMTP a
 
 \- Simple Python script structure
 
-
-
 \## Tech Stack
-
-
 
 \- Python
 
@@ -84,11 +60,7 @@ A Python-based email automation tool that sends personalized emails using SMTP a
 
 \- Gmail App Password
 
-
-
 \## Folder Structure
-
-
 
 ```text
 
@@ -104,17 +76,9 @@ python-smtp-email-automation/
 
 └── emails.xlsx
 
-
-
-
-
 Excel File Format
 
-
-
 Your emails.xlsx file should contain these columns:
-
-
 
 Email	Name	State
 
@@ -130,17 +94,10 @@ python mailer.py
 
 Security Note
 
-
-
 Do not upload your Gmail App Password publicly. Keep passwords in environment variables or a .env file.
 
-
-
 Author
-
-
 
 Muhammad Afzal Kalwar
 
 GitHub: @mafzalkalwardev
-
