@@ -17,18 +17,16 @@ Documented · MIT licensed · Maintained
 ## 🐍 Contribution graph
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mafzalkalwardev/python-smtp-email-automation/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mafzalkalwardev/python-smtp-email-automation/output/snake.svg" />
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/mafzalkalwardev/python-smtp-email-automation/output/snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mafzalkalwardev/python-smtp-email-automation/gh-pages/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mafzalkalwardev/python-smtp-email-automation/gh-pages/output/snake.svg" />
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/mafzalkalwardev/python-smtp-email-automation/gh-pages/output/snake.svg" />
 </picture>
 
 ---
 
-\# Python SMTP Email Automation
 
 A Python-based email automation tool that sends personalized emails using SMTP and Gmail App Passwords. It reads recipient data from an Excel file and sends customized email messages with randomized templates and safe delays.
 
-\## Screenshots
 
 ## Screenshots
 
@@ -36,74 +34,64 @@ A Python-based email automation tool that sends personalized emails using SMTP a
 
 ## Features
 
-\- Send emails using Gmail SMTP
+- Send emails using Gmail SMTP
+- Read recipients from Excel file
+- Personalized email templates
+- Random subject and body rotation
+- Email validation
+- Retry failed emails
+- Random delay between emails
+- Simple Python script structure
 
-\- Read recipients from Excel file
+## Tech Stack
 
-\- Personalized email templates
+- Python
+- Pandas
+- OpenPyXL
+- SMTP
+- Gmail App Password
 
-\- Random subject and body rotation
-
-\- Email validation
-
-\- Retry failed emails
-
-\- Random delay between emails
-
-\- Simple Python script structure
-
-\## Tech Stack
-
-\- Python
-
-\- Pandas
-
-\- OpenPyXL
-
-\- SMTP
-
-\- Gmail App Password
-
-\## Folder Structure
+## Folder Structure
 
 ```text
-
 python-smtp-email-automation/
 
 │
-
 ├── mailer.py
-
 ├── README.md
-
 ├── .gitignore
-
 └── emails.xlsx
+```
 
-Excel File Format
+## Excel File Format
 
-Your emails.xlsx file should contain these columns:
+Your `emails.xlsx` file should contain these columns:
 
-Email	Name	State
+| Email | Name | State |
+|-------|------|-------|
+| example@gmail.com | John | TX |
 
-example@gmail.com	John	TX
+## Installation
 
-Installation
+Install required packages:
 
+```bash
 pip install pandas openpyxl
+```
 
-How to Run
+## How to Run
 
+```bash
 python mailer.py
+```
 
-Security Note
+## Security Note
 
 Do not upload your Gmail App Password publicly. Keep passwords in environment variables or a .env file.
 
-Author
+## Author
 
 Muhammad Afzal Kalwar
-
 GitHub: @mafzalkalwardev
 
 ---
